@@ -15,6 +15,7 @@ title: "databrary.org"
 - [register](register.html)
 - [search](search.html)
 - [news](news.html)
-- [aboutDatabrary](aboutDatabrary.Rmd)
+- [aboutDatabrary](aboutDatabrary.html)
+- [aboutProject](aboutProject.html)
 - [aboutTeam](aboutTeam.html)
 - [support](support.html)

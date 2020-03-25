@@ -2,6 +2,10 @@
 title: "support"
 ---
 
+```{r, echo=FALSE}
+knitr::include_graphics("img/support.png")
+```
+
 # Routes
 
 - databrary.org/support

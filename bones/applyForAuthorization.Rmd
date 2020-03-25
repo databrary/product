@@ -2,6 +2,8 @@
 title: "applyForAuthorization"
 ---
 
+To access Databrary's restricted data, you must apply for authorization from an institution.
+
 # From
 
 - [landingPageNoAuth](landingPageNoAuth.html)

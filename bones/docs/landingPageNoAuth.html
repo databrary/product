@@ -16,7 +16,7 @@
 <script src="site_libs/header-attrs-2.1/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -104,33 +104,33 @@ summary {
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 60px;
+  padding-top: 51px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h2 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h3 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h4 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h5 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h6 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .dropdown-submenu {
   position: relative;
@@ -293,6 +293,9 @@ $(document).ready(function () {
       <a href="aboutDatabrary.html">Databrary</a>
     </li>
     <li>
+      <a href="aboutProject.html">Project</a>
+    </li>
+    <li>
       <a href="aboutTeam.html">Team</a>
     </li>
   </ul>
@@ -302,7 +305,25 @@ $(document).ready(function () {
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li>
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Avatar
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="settings.html">Account Settings</a>
+    </li>
+    <li>
+      <a href="landingPageAuth.html">My Projects</a>
+    </li>
+    <li>
+      <a href="logout.html">Logout</a>
+    </li>
+  </ul>
+</li>
+<li>
   <a href="login.html">Login</a>
 </li>
 <li>
@@ -329,6 +350,15 @@ $(document).ready(function () {
 </div>
 
 
+<div id="routes" class="section level1">
+<h1>Routes</h1>
+<ul>
+<li>databrary.org/my</li>
+<li>nyu.databrary.org/my</li>
+<li>databrary.org/dashboard</li>
+<li>nyu.databrary.org/dashboard</li>
+</ul>
+</div>
 <div id="from" class="section level1">
 <h1>From</h1>
 <ul>
@@ -339,12 +369,27 @@ $(document).ready(function () {
 <h1>To</h1>
 <ul>
 <li><a href="applyForAuthorization.html">applyForAuthorization</a></li>
+<li><a href="myProjects.html">projects</a></li>
+<li><a href="settings.html">settings</a></li>
+<li><a href="profile.html">profile</a></li>
+</ul>
+</div>
+<div id="actions" class="section level1">
+<h1>Actions</h1>
+<ul>
+<li>Create (private) project(s)</li>
+<li>Manage people</li>
+<li>Apply for authorization</li>
+<li>Edit profile</li>
+<li>Edit other settings</li>
+<li>Browse public projects on Databrary</li>
+<li>Learn about Databrary</li>
 </ul>
 </div>
 <div id="comments" class="section level1">
 <h1>Comments</h1>
 <ul>
-<li>if user != authorized</li>
+<li>if (user != authorized) then show(thisPage) else show(<a href="landingPageAuth.html">landingPageAuth</a>)</li>
 </ul>
 </div>
 

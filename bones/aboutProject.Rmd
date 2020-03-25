@@ -8,8 +8,8 @@ knitr::include_graphics("img/aboutProject.png")
 
 # Routes
 
-- databrary.org/about
-- nyu.databrary.org/about
+- databrary.org/about/project
+- nyu.databrary.org/about/project
 
 # From
 

@@ -1,20 +1,36 @@
 ---
-title: "landingPageNoAuth"
+title: "landingPageAuth"
 subtitle: "*dashboard*"
 ---
 
 # Routes
 
 - databrary.org/my
-- nyu.databrary.org/muy
+- nyu.databrary.org/my
+- databrary.org/dashboard
+- nyu.databrary.org/dashboard
 
 # From
 
 - [login](login.html)
+- [databrary.org](index.html)
 
 # To
 
-- projects
-- people
-- setting
-- profile
+- [projects](myProjects.html)
+- [people](myPeople.html)
+- [settings](settings.html)
+- [profile](profile.html)
+
+# Actions
+
+- Create project(s)
+- Manage people
+- Edit profile
+- Edit other settings
+- Browse (public + shared) projects on Databrary
+- Learn about Databrary
+
+# Comments
+
+- if (user != authorized) then show([landingPageNoAuth](landingPageNoAuth.html)) else show(thisPage)

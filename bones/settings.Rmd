@@ -1,0 +1,25 @@
+---
+title: "settings"
+---
+
+```{r, echo=FALSE}
+knitr::include_graphics("img/settings.png")
+```
+
+# Routes
+
+- databrary.org/my/settings
+- nyu.databrary.org/my/settings
+
+# From
+
+- [databrary.org](index.html)
+- [landingPageAuth](landingPageAuth.html)
+- [landingPageNoAuth](landingPageNoAuth.html)
+
+# To
+
+- [profile](profile.html)
+- [account](account.html)
+- [emails](emails.html)
+- [security](security.html)
