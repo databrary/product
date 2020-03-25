@@ -1,0 +1,18 @@
+---
+title: "aboutTeam"
+---
+
+```{r echo=FALSE}
+knitr::include_graphics("img/aboutTeam.png")
+```
+
+# Routes
+
+- databrary.org/about/team
+- nyu.databrary.org/about/team
+
+# From
+
+- [databrary.org](index.html)
+
+# To

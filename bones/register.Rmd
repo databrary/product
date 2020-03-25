@@ -1,0 +1,16 @@
+---
+title: "register"
+---
+
+# Routes
+
+- databrary.org/register
+- nyu.databrary.org/register
+
+# From
+
+- [databrary.org](index.html)
+
+# To
+
+- [confirmEmail](confirmEmail.html)

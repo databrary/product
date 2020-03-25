@@ -1,0 +1,19 @@
+---
+title: "confirmEmail"
+---
+
+# Routes
+
+# From
+
+- [register](register.html)
+
+# To
+
+# Comments
+
+- Modal
+
+# Actions
+
+- Close

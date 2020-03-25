@@ -1,0 +1,16 @@
+---
+title: "applyForAuthorization"
+---
+
+# From
+
+- [landingPageNoAuth](landingPageNoAuth.html)
+
+# To
+
+- [applyForAuthorization](applyForAuthorization.html)
+
+# Comments
+
+- if (user != authorized) then display(thisPage)
+- if (user == authorizationPending) then display(authorizationPending)

@@ -1,0 +1,20 @@
+---
+title: "landingPageNoAuth"
+subtitle: "*dashboard*"
+---
+
+# Routes
+
+- databrary.org/my
+- nyu.databrary.org/muy
+
+# From
+
+- [login](login.html)
+
+# To
+
+- projects
+- people
+- setting
+- profile

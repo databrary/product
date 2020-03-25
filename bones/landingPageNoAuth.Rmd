@@ -1,0 +1,16 @@
+---
+title: "landingPageNoAuth"
+subtitle: "*dashboard*"
+---
+
+# From
+
+- [login](login.html)
+
+# To
+
+- [applyForAuthorization](applyForAuthorization.html)
+
+# Comments
+
+- if user != authorized

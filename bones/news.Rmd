@@ -1,0 +1,18 @@
+---
+title: "search"
+---
+
+```{r echo=FALSE}
+knitr::include_graphics("img/news.png")
+```
+
+# Routes
+
+- databrary.org/news
+- nyu.databrary.org/news
+
+# From
+
+- [databrary.org](index.html)
+
+# To
