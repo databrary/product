@@ -6,13 +6,22 @@ title: "aboutTeam"
 knitr::include_graphics("img/aboutTeam.png")
 ```
 
+# Purpose
+
+This page provides information about Databrary's team.
+
 # Routes
+
+## API
 
 - databrary.org/about/team
 - nyu.databrary.org/about/team
 
-# From
+## From
 
 - [databrary.org](index.html)
 
-# To
+## To
+
+# Comments
+

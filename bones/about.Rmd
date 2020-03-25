@@ -8,11 +8,13 @@ knitr::include_graphics("img/aboutProject.png")
 
 # Routes
 
+## API
+
 - databrary.org/about
 - nyu.databrary.org/about
 
-# From
+## From
 
 - [databrary.org](index.html)
 
-# To
+## To

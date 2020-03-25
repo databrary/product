@@ -300,6 +300,21 @@ $(document).ready(function () {
     </li>
   </ul>
 </li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Community
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="people.html">People</a>
+    </li>
+    <li>
+      <a href="orgs.html">Organizations</a>
+    </li>
+  </ul>
+</li>
 <li>
   <a href="support.html">Support</a>
 </li>
@@ -350,8 +365,14 @@ $(document).ready(function () {
 </div>
 
 
+<div id="purpose" class="section level1">
+<h1>Purpose</h1>
+<p>This is a user’s dashboard or primary landing page. It is where users land after they log-in from the Databrary home page. This page has special features for users who are not authorized.</p>
+</div>
 <div id="routes" class="section level1">
 <h1>Routes</h1>
+<div id="api" class="section level2">
+<h2>API</h2>
 <ul>
 <li>databrary.org/my</li>
 <li>nyu.databrary.org/my</li>
@@ -359,20 +380,22 @@ $(document).ready(function () {
 <li>nyu.databrary.org/dashboard</li>
 </ul>
 </div>
-<div id="from" class="section level1">
-<h1>From</h1>
+<div id="from" class="section level2">
+<h2>From</h2>
 <ul>
 <li><a href="login.html">login</a></li>
 </ul>
 </div>
-<div id="to" class="section level1">
-<h1>To</h1>
+<div id="to" class="section level2">
+<h2>To</h2>
 <ul>
 <li><a href="applyForAuthorization.html">applyForAuthorization</a></li>
-<li><a href="myProjects.html">projects</a></li>
+<li><a href="myProjects.html">myProjects</a></li>
+<li><a href="myPeople.html">myPeople</a></li>
 <li><a href="settings.html">settings</a></li>
 <li><a href="profile.html">profile</a></li>
 </ul>
+</div>
 </div>
 <div id="actions" class="section level1">
 <h1>Actions</h1>
@@ -389,7 +412,7 @@ $(document).ready(function () {
 <div id="comments" class="section level1">
 <h1>Comments</h1>
 <ul>
-<li>if (user != authorized) then show(thisPage) else show(<a href="landingPageAuth.html">landingPageAuth</a>)</li>
+<li>if (userAuthorized == FALSE) {show <a href="landingPageUnAuthorized.html">landingPageUnauthorized</a>]} else {show <a href="landingPageAuth.html">landingPageAuth</a>)}</li>
 </ul>
 </div>
 

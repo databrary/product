@@ -16,6 +16,12 @@ navbar:
           href: aboutProject.html
         - text: "Team"
           href: aboutTeam.html
+    - text: "Community"
+      menu:
+        - text: "People"
+          href: people.html
+        - text: "Organizations"
+          href: orgs.html
     - text: "Support"
       href: support.html
   right:

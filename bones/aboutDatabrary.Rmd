@@ -6,13 +6,22 @@ title: "aboutProject"
 knitr::include_graphics("img/aboutDatabrary.png")
 ```
 
+# Purpose
+
+This page provides information about Databrary.
+
 # Routes
+
+## API
 
 - databrary.org/about
 - nyu.databrary.org/about
 
-# From
+## From
 
 - [databrary.org](index.html)
 
-# To
+## To
+
+# Comments
+

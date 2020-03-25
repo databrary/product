@@ -4,16 +4,19 @@ title: "confirmEmail"
 
 # Routes
 
-# From
+## API
+
+## From
 
 - [register](register.html)
 
-# To
+## To
+
+# Actions
+
+- Close window
 
 # Comments
 
 - Modal
 
-# Actions
-
-- Close

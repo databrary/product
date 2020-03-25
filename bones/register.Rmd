@@ -2,15 +2,26 @@
 title: "register"
 ---
 
+# Purpose
+
+This page (modal dialog) allows a user to register for Databrary.
+
 # Routes
+
+## API
 
 - databrary.org/register
 - nyu.databrary.org/register
 
-# From
+## From
 
 - [databrary.org](index.html)
 
-# To
+## To
 
 - [confirmEmail](confirmEmail.html)
+
+# Actions
+
+# Comments
+

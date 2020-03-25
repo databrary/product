@@ -6,13 +6,23 @@ title: "aboutProject"
 knitr::include_graphics("img/aboutProject.png")
 ```
 
+# Purpose
+
+This page provides information about the Databrary project.
+
 # Routes
+
+## API
 
 - databrary.org/about/project
 - nyu.databrary.org/about/project
 
-# From
+## From
 
 - [databrary.org](index.html)
 
-# To
+## To
+
+# Comments
+
+- Can we combine this with [aboutDatabrary](aboutDatabrary.html)?

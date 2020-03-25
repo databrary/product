@@ -2,19 +2,25 @@
 title: "myProjects"
 ---
 
+# Purpose
+
+This page allows a user to visualize and edit their projects.
+
 # Routes
+
+## API
 
 - databrary.org/my/projects
 - nyu.databrary.org/my/projects
 
-# From
+## From
 
 - [login](login.html)
 - [databrary.org](index.html)
 - [dashboard](landingPageAuth.html)
 - [people](myPeople.html)
 
-# To
+## To
 
 - [people](myPeople.html)
 - [settings](settings.html)
@@ -30,3 +36,7 @@ title: "myProjects"
 - Share projects (with specific people)
 - Share projects (with Databrary)
 - Get data about projects
+
+# Comments
+
+

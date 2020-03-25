@@ -3,22 +3,29 @@ title: "landingPageAuth"
 subtitle: "*dashboard*"
 ---
 
+# Purpose
+
+This is a user's dashboard or primary landing page.
+It is where users land after they log-in from the Databrary home page.
+
 # Routes
+
+## API
 
 - databrary.org/my
 - nyu.databrary.org/my
 - databrary.org/dashboard
 - nyu.databrary.org/dashboard
 
-# From
+## From
 
 - [login](login.html)
 - [databrary.org](index.html)
 
-# To
+## To
 
-- [projects](myProjects.html)
-- [people](myPeople.html)
+- [myProjects](myProjects.html)
+- [myPeople](myPeople.html)
 - [settings](settings.html)
 - [profile](profile.html)
 
@@ -33,4 +40,4 @@ subtitle: "*dashboard*"
 
 # Comments
 
-- if (user != authorized) then show([landingPageNoAuth](landingPageNoAuth.html)) else show(thisPage)
+- if (userAuthorized == FALSE) {show [landingPageNoAuth](landingPageNoAuth.html)]} else {show [landingPageAuth](landingPageAuth.html))}

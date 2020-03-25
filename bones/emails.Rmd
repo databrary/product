@@ -6,22 +6,33 @@ title: "emails"
 knitr::include_graphics("img/emails.png")
 ```
 
+# Purpose
+
+This page allows users to edit their emails.
+
 # Routes
+
+## API
 
 - databrary.org/my/settings/emails
 - nyu.databrary.org/my/settings/emails
 - databrary.org/my/emails
 - nyu.databrary.org/emails
 
-# From
+## From
 
 - [settings](settings.html)
 - [landingPageAuth](landingPageAuth.html)
 - [landingPageNoAuth](landingPageNoAuth.html)
 
-# To
+## To
 
 - [profile](profile.html)
 - [account](account.html)
 - [emails](emails.html)
 - [security](security.html)
+
+# Actions
+
+# Comments
+
